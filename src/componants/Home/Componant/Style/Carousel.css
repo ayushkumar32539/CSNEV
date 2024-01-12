@@ -1,0 +1,133 @@
+.carousel-main-container{
+    background-color: #1e6c9907;
+}
+.caraousel-image-container img{
+    height: 500px;
+    width: 100%;  
+}
+.carousel-images .caraousel-image-container img{
+    box-shadow: none;
+}
+.carousel-container-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.carousel-heading01{
+    color: #134460;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+    padding-left: 30px;
+    width: 100%;
+} 
+.carousel-content-button{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.carousel-button-container{
+    cursor: pointer;
+    margin-top: 25px;
+    background-color: #1e6c99;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+}
+.carousel-button-container:hover{
+    transition-duration: 500ms;
+    border: 1px solid #1e6c99;
+    background-color: white;
+    color: #1e6c99;
+
+}
+.carousel-content01{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: right;
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .caraousel-image-container img{
+        height: 350px;
+        width: 100%;
+    }
+    .carousel-heading01{
+        color: #134460;
+        margin-bottom: 15px;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: right;
+        padding-left: 30px;
+        width: 100%;
+    } 
+    .carousel-content01{
+        font-size: 14px;
+        line-height: 30px;
+        text-align: right;
+        padding-left: 30px;
+    }
+    .carousel-button-container{
+        cursor: pointer;
+        margin-top: 20px;
+        background-color: #1e6c99;
+        padding: 10px;
+        border-radius: 30px;
+        font-weight: bold;
+        color: white;
+        width: 200px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .carousel-container-contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .caraousel-image-container img{
+        height: 300px;
+        width: 100%;
+    }
+    .carousel-heading01{
+        color: #134460;
+        margin-bottom: 15px;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        padding-left: 0px;
+        width: 100%;
+    } 
+    .carousel-content01{
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .carousel-button-container{
+        cursor: pointer;
+        margin-top: 20px;
+        background-color: #1e6c99;
+        padding: 10px;
+        border-radius: 30px;
+        font-weight: bold;
+        color: white;
+        width: 200px;
+    }
+    .carousel-content-button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

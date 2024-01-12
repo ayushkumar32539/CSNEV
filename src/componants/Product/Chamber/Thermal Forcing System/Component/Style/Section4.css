@@ -1,0 +1,79 @@
+.tfs_s4_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+
+.tfs_s4_wrapper{
+    width: 80%;
+}
+
+.tfs_s4_heading{
+    text-align: center;
+    color: rgb(23, 110, 137);
+    font-weight: 600;
+}
+
+
+.tfs_s4_scn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tfs_s4_left{
+    background: rgb(23, 110, 137);
+    color: white;
+    margin-top: 20px;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.tfs_s4_right{
+    background: rgb(23, 110, 137);
+    color: white;
+    margin-top: 20px;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.tfs_s4_list{
+    border: 2px solid white;
+    padding: 5px;
+}
+
+@media (max-width: 800px) {
+    .tfs_s4_scn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .tfs_s4_right{
+        background: rgb(23, 110, 137);
+        color: white;
+        padding: 3rem;
+        border-radius: 10px;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .tfs_s4_left{
+        background: rgb(23, 110, 137);
+        color: white;
+        padding: 1rem;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    .tfs_s4_right{
+        background: rgb(23, 110, 137);
+        color: white;
+        padding: 1rem;
+        border-radius: 10px;
+        margin-top: 2rem;
+    }
+}

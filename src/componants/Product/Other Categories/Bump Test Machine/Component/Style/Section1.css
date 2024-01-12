@@ -1,0 +1,9 @@
+.altitude{ 
+    background: url('../Images/light-through-forest-tree-trunks.x8620a511.webp')  no-repeat;
+   height: 100%;
+   background-size: 100% 100%;
+}
+.section1_bgcolor{
+    background-color:rgb(23, 110, 137);
+    opacity: 0.9;
+}

@@ -1,0 +1,10 @@
+.Water-cooled-container{
+    margin-top: 2rem;
+    padding-bottom: 50px;
+   
+}
+.Water-cooled-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

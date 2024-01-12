@@ -1,0 +1,122 @@
+.OurFounders-main-container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 30px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.OurFounders-container {
+  max-width: 70%;
+}
+
+.OurFounders-heading h4 {
+  color: #3991c5;
+  font-weight: bold;
+}
+
+.OurFounders-sub-header {
+  text-align: center;
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+.OurFounders-image-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.OurFounders-image-wrapper {
+  /* max-width: 97%; */
+  display: flex;
+  padding: 20px;
+}
+
+.OurFounders-image-wrapper img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
+  padding: 4px;
+  transition: 0.4s ease-out;
+  background-color: rgb(235, 235, 235);
+}
+.OurFounders-image-wrapper img:hover {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.16), 0 8px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  background-color: #3991c5;
+  transition: 0.3s ease-in;
+}
+
+.OurFounders-image-container .OurFounders-image-wrapper h5 {
+  color: #3991c5;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.OurFounders-image-container .OurFounders-image-wrapper h5,
+h6 {
+  text-align: center;
+}
+
+.OurFounders-image-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  align-items: center;
+  width: 350px;
+}
+.image-captions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .OurFounders-image-wrapper {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .OurFounders-image-content {
+    padding: 20px;
+  }
+  .image-captions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+}
+
+@media (max-width: 1200px) {
+  .OurFounders-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .OurFounders-image-content {
+    padding: 20px;
+  }
+}
