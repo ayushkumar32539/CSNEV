@@ -13,6 +13,8 @@ import Sections2 from "./Content/Section2";
 import Section3 from "./Component/Section3";
 import Sections3 from "./Content/Section3";
 import Section4 from "./Component/section4";
+
+// this is Accelerometers_Signal_Filters
 const Accelerometers_Signal_Filters = () => {
   return (
     <div className="Accelerometers_Signal_Filters">
