@@ -1,7 +1,7 @@
 import React from 'react'
 import './Style/Vibration.css';
 import ElectrodynamicMainComponent from './Component/ElectrodynamicMainComponent';
-import ElectrodynamicMapContent from './Content/electroDynamicMapContent';
+import ElectrodynamicMapContent from './Content/ElectroDynamicMapContent';
 const Vibration = () => {
   return (
     <>
